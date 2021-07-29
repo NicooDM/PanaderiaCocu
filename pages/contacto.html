@@ -7,9 +7,9 @@
     <meta name="description" content="panaderia,pan,facturas" />
     <meta name="keywords" content="panaderiaCocu,panes,facturas" />
     <meta name="author" content="Jose Nicolas Di Marco" />
-     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+     <link rel="stylesheet" href="../CSS/bootstrap.min.css">
 
-    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
     <title>Contactos</title>
   </head>
   <body>
@@ -19,7 +19,7 @@
           <article>
             <a class="navbar-brand" href="index.html"
               ><img
-                src="IMG/cocu_logo-450.png"
+                src="../IMG/cocu_logo-450.png"
                 alt="logo"
                 height="75px"
                 width="75px"
@@ -63,12 +63,37 @@
         </article>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section>
+        <h1 class="my-5 display-1 text-center">Consulta</h1>
+        <hr>
+        <article class="row">
+          <div class="col-sm-12 col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" maxlength="50" required>
+               
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+          </div>
+          <div></div>
+
+        </article>
+      </section>
+    </main>
     <footer class="bg-dark text-light py-4">
       <section class="container">
         <div class="row">
           <div class="col-sm-12 col-md-4">
-            <img src="IMG/cocu_logo-450.png" alt="LogoPanaderia" class="w-50">
+            <img src="../IMG/cocu_logo-450.png" alt="LogoPanaderia" class="w-50">
           </div>
           <div class="col-sm-12 col-md-4">
           <h6>Horarios de Atencion:</h6>
@@ -88,6 +113,6 @@
         </section>
     </footer>
 
-    <script src="JS/bootstrap.min.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
   </body>
 </html>

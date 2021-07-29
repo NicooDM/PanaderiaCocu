@@ -1,0 +1,12 @@
+
+@media all  and (max-width: 576px){
+    .sliderResponsive{
+        height: 250px;
+        object-fit: cover;/* Para mantener la proporcion de la imagen*/
+    }
+
+    .centrar{
+        text-align: center;
+    }
+
+}
